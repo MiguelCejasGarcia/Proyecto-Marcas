@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Añadir Piloto</title>
+</head>
+<body>
+<h2>Añadir Piloto</h2>
+<form action="anadir.php" method="post">
+  <label for="id">ID:</label><br>
+  <input type="number" id="id" name="id" required><br>
+  <label for="nombre">Nombre:</label><br>
+  <input type="text" id="nombre" name="nombre" required><br>
+  <label for="edad">Edad:</label><br>
+  <input type="number" id="edad" name="edad" required><br>
+  <label for="nacionalidad">Nacionalidad:</label><br>
+  <input type="text" id="nacionalidad" name="nacionalidad" required><br>
+  <label for="campeon">Campeón:</label><br>
+  <input type="boolean" id="campeon" name="campeon" required placeholder="Sí/No"><br>
+  <br><br>
+  <input type="submit" value="Añadir Piloto">
+<a href="./index.php">Volver</a>
+</form>
+</body>
+</html>

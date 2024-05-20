@@ -1,0 +1,102 @@
+<motogp>
+    <escuderias>
+        <escuderia id="10">
+            <piloto id="1" escuderia="10"/>
+            <nombre>Yamaha Factory Racing</nombre>
+            <fundacion>1955</fundacion>
+            <pais>Japón</pais>
+        </escuderia>
+        <escuderia id="20">
+            <piloto id="2" escuderia="20"/>
+            <nombre>Repsol Honda Team</nombre>
+            <fundacion>1995</fundacion>
+            <pais>Japón</pais>
+        </escuderia>
+        <escuderia id="30">
+            <piloto id="3" escuderia="30"/>
+            <nombre>Ducati Corse</nombre>
+            <fundacion>1926</fundacion>
+            <pais>Italia</pais>
+           
+        </escuderia>
+        <escuderia id="40" >
+            <piloto id="4" escuderia="40"/>
+            <nombre>Suzuki Ecstar</nombre>
+            <fundacion>1960</fundacion>
+            <pais>Japón</pais>
+        </escuderia>
+        <escuderia id="50">
+            <piloto id="5" escuderia="50"/>
+            <nombre> KTM Racing</nombre>
+            <fundacion>2003</fundacion>
+            <pais>Austria</pais>
+        </escuderia>
+    </escuderias>
+    <pilotos>
+        <piloto id="1" escuderia="10">
+            <nombre>Valentino Rossi</nombre>
+            <edad>44</edad>
+            <nacionalidad>Italiano</nacionalidad>
+            <campeon>Sí</campeon>
+        </piloto>
+        <piloto id="2">
+            <nombre>Marc Márquez</nombre>
+            <edad>31</edad>
+            <nacionalidad>Español</nacionalidad>
+            <campeon>Sí</campeon>
+        </piloto>
+        <piloto id="3" escuderia="30">
+            <nombre>Jorge Lorenzo</nombre>
+            <edad>38</edad>
+            <nacionalidad>Español</nacionalidad>
+            <campeon>Sí</campeon>
+        </piloto>
+        <piloto id="4" escuderia="40">
+            <nombre>Joan Mir</nombre>
+            <edad>26</edad>
+            <nacionalidad>Español</nacionalidad>
+            <campeon>Sí</campeon>
+        </piloto>
+        <piloto id="5" escuderia="50">
+            <nombre>Brad Binder</nombre>
+            <edad>25</edad>
+            <nacionalidad>Sudafricano</nacionalidad>
+            <campeon>No</campeon>
+        </piloto>
+        <piloto id="6">
+            <nombre>Álex Rins</nombre>
+            <edad>26</edad>
+            <nacionalidad>Español</nacionalidad>
+            <campeon>No</campeon>
+        </piloto>
+        <piloto id="7">
+            <nombre>Fabio Quartararo</nombre>
+            <edad>23</edad>
+            <nacionalidad>Francés</nacionalidad>
+            <campeon>No</campeon>
+        </piloto>
+        <piloto id="8">
+            <nombre>Jack Miller</nombre>
+            <edad>28</edad>
+            <nacionalidad>Australiano</nacionalidad>
+            <campeon>No</campeon>
+        </piloto>
+        <piloto id="9">
+            <nombre>Maverick Viñales</nombre>
+            <edad>28</edad>
+            <nacionalidad>Español</nacionalidad>
+            <campeon>No</campeon>
+        </piloto>
+        <piloto id="10">
+            <nombre>Álvaro Bautista</nombre>
+            <edad>37</edad>
+            <nacionalidad>Español</nacionalidad>
+            <campeon>No</campeon>
+        </piloto>
+    </pilotos>
+</motogp>
+<!-- hotel-> motogp
+habitaciones-> escuderias
+habitacion-> escuderia
+huespedes->pilotos
+huesped->piloto-->
